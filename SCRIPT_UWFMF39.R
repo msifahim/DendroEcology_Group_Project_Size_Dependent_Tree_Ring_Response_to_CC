@@ -1,3 +1,6 @@
+
+####Fahim started from here####
+
 ### set working directory
 #setwd("~/Documents/R/UWFMF39")
 setwd("F:/MSc in Global Forestry/TUD/UWFMT39/Research exposure/Analysis_R/TRW")
@@ -175,3 +178,5 @@ ggplot(climate_seq, aes(x = YEAR + (Month_Num-1)/12, y = SPEI3)) +
   scale_fill_manual(values = c("TRUE" = "blue", "FALSE" = "red")) +
   labs(title = "3-Month SPEI Timeseries", y = "SPEI Value (Negative = Dry)", x = "Year") +
   theme_minimal()
+
+#####Fahim Ended Here####
